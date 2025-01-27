@@ -1,0 +1,37 @@
+NewsAppProject/
+├── app/
+│   ├── src/
+│       ├── main/
+│           ├── java/
+│               ├── com.example.newsappproject/
+│                   ├── data/
+│                       ├── models/
+│                           ├── Article.kt
+│                           ├── Source.kt
+│                       ├── remote/
+│                           ├── NewsApi.kt
+│                           ├── RetrofitInstance.kt
+│                       ├── local/
+│                           ├── ArticleDao.kt
+│                           ├── NewsDatabase.kt
+│                   ├── repository/
+│                       ├── NewsRepository.kt
+│                   ├── ui/
+│                       ├── theme/
+│                           ├── Color.kt
+│                           ├── Typography.kt
+│                           ├── Theme.kt
+│                       ├── screens/
+│                           ├── NewsScreen.kt
+│                           ├── SavedNewsScreen.kt
+│                       ├── components/
+│                           ├── ArticleCard.kt
+│                   ├── viewmodel/
+│                       ├── NewsViewModel.kt
+│                   ├── di/
+│                       ├── AppModule.kt
+│                   ├── MainActivity.kt
+│           ├── res/
+│               ├── drawable/
+│               ├── layout/
+│               ├── values/
