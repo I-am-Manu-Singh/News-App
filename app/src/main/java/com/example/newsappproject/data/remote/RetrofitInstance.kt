@@ -3,6 +3,7 @@ package com.example.newsappproject.data.remote
 import retrofit2.Retrofit
 import retrofit2.converter.gson.GsonConverterFactory
 
+
 object RetrofitInstance {
     private const val BASE_URL = "https://content.guardianapis.com/"
 
@@ -11,5 +12,5 @@ object RetrofitInstance {
         .addConverterFactory(GsonConverterFactory.create())
         .build()
 
-    val api: NewsApi = retrofit.create(NewsApi::class.java)
+    val newsApi: NewsApi = retrofit.create(NewsApi::class.java)
 }

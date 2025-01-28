@@ -1,5 +1,5 @@
 plugins {
-    alias(libs.plugins.dagger)
+//    alias(libs.plugins.dagger)
     alias(libs.plugins.compose.compiler)
     alias(libs.plugins.android.application)
     alias(libs.plugins.kotlin.android)
@@ -53,7 +53,6 @@ dependencies {
     implementation(libs.androidx.ui.graphics)
     implementation(libs.androidx.ui.tooling.preview)
     implementation(libs.androidx.material3)
-//    testImplementation(libs.junit)
     androidTestImplementation(libs.androidx.junit)
     androidTestImplementation(libs.androidx.espresso.core)
     androidTestImplementation(platform(libs.androidx.compose.bom))
@@ -61,21 +60,19 @@ dependencies {
     debugImplementation(libs.androidx.ui.tooling)
     debugImplementation(libs.androidx.ui.test.manifest)
     implementation (libs.androidx.paging.compose)
-//    implementation (libs.androidx.navigation.compose)
 
     // Retrofit for Networking
     implementation (libs.retrofit)
     implementation (libs.converter.gson)
 
     // Dagger Hilt
-    implementation (libs.hilt.android)
-    kapt(libs.hilt.android.compiler)
-    implementation(libs.hilt.compose.navigation)
+//    implementation (libs.hilt.android)
+//    kapt(libs.hilt.android.compiler)
+//    implementation(libs.hilt.compose.navigation)
 
     // Room Database
     implementation (libs.androidx.room.runtime)
     implementation(libs.androidx.room.compiler)
-//    ksp(libs.androidx.room.compiler)
     kapt("androidx.room:room-compiler:2.6.1")
     implementation(libs.annotations)     // Or the latest version
 
@@ -90,5 +87,13 @@ dependencies {
     implementation (libs.koin.androidx.compose)
     implementation (libs.koin.androidx.navigation)// Optional, for navigation if needed
     implementation(libs.navigation.compose.v250) // Ensure you have this dependency
+
+
+    implementation (libs.androidx.material)
+    implementation (libs.androidx.runtime.livedata)
+    implementation (libs.androidx.lifecycle.runtime.compose)
+
+
+
 
 }
