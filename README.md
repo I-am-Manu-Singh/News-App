@@ -68,8 +68,9 @@ com.example.newsappproject
 
 ---
 
-## 📷 Screenshots (Optional)
-Add some UI screenshots here.
+## 📷 Screenshots & App Demo Video
+
+[![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/IoxXSl-bVSk/0.jpg)](https://www.youtube.com/watch?v=IoxXSl-bVSk)
 
 ---
 
